@@ -1,0 +1,33 @@
+<custom-style>
+	<style>
+	#firstname, #lastname {
+		width: inherit;
+	}
+	
+	#firstname{
+		margin-right: auto;
+	}
+	
+	#lastname {
+		margin-left: auto;
+	}
+	
+	.nameWrapper {
+		display: flex;
+		flex-direction: row;
+	}
+	</style>
+	
+	<dom-module id="statup-dialog" theme-for="vaadin-dialog-overlay">    
+	        <template>
+	            <style>
+	            
+	              :host([theme~="startupdialog"]) [part="content"] {
+	                    padding: 0 !important;                    
+	                    overflow: hidden;
+	                }   
+	                     
+	            </style>
+	        </template>
+	</dom-module>
+</custom-style>
